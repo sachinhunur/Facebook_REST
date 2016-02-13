@@ -1,0 +1,55 @@
+.blue{
+	background-color: #3B5998;
+	width: 3000px;
+	position: relative;
+	margin-top:-20px;
+	height:100px;
+	color:white;
+	background-color: #3B5998;
+	border-color:#3B5998;
+}
+
+
+#gr{
+	position: absolute;
+	margin-left:500px;
+	margin-top:-40px;
+	color:white;
+	background-color: #3B5998;
+	border-color:#3B5998;
+}
+#pr{
+	position: absolute;
+	margin-left:600px;
+	margin-top:-40px;
+	color:white;
+	background-color: #3B5998;
+	border-color:#3B5998;
+}
+#logout{
+	position: absolute;
+	margin-left:1100px;
+	margin-top:-40px;
+	color:white;
+	background-color: #3B5998;
+	border-color:#3B5998;
+}
+.table
+{
+	border-right-style: outset;
+	border-left-style: outset;
+}
+
+body {
+  
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color:#808080;
+}
+.try{
+	background-color: #D0D0D0;
+	
+}
+
+a {
+  color: #00B7FF;
+}

@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style2.css' />
+  </head>
+  <body>
+ 
+    <h1 id="header1"><div id="headerDiv">facebook</div></h1>
+                <div id ="imgDiv"></div>
+                <div id="mainDiv">
+                                <p id = "signUp">Sign Up</p>
+                                <div id = "ormDiv">
+                                                <form method="post"  action="signup">
+                                                                <input type="text" name="firstname" class="textbox" id="nametxt" placeholder="First Name">
+                                                               <input type="text" name="lastname" class="textbox" id="lnametxt" placeholder="Last Name"><br>
+                                                                <input type="text" name="email" class="textbox" id="usertxt" placeholder="Username"><br>
+                                                                <input type="password" name="password" class="textbox" id="pwdtxt" placeholder="Password"><br>
+                                                                <input type="text" name="gender" class="textbox" id="gendertxt" placeholder="Gender"><br>
+                                                               <input type ="submit" value="Sign Up" id="signUpBut"/>
+                                                              
+                                </form>
+                                
+                                <form  method="post" 	action="logi">
+ 	  <input id="loginBut" type ="submit" value="Login"/>
+ 	</form></div>
+                </div>
+  </body>
+</html>

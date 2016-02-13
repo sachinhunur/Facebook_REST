@@ -1,0 +1,137 @@
+body
+{
+	
+background: -webkit-linear-gradient(#ffffff, #ffffff, #ffffff, #6C79A2);  /* For Safari 5.1 to 6.0 */   
+	background: linear-gradient(#ffffff, #ffffff, #ffffff, #6C79A2); /* Standard syntax */ 
+	height: 650px;
+
+}
+
+#header1
+{
+	height: 100px;
+	width: 100%;
+	background-color:#384F99;
+	font-family: lucida console;
+	color: #ffffff;
+	margin-top: -5px;
+	padding: 0px;
+}
+
+#headerDiv
+{
+	margin-top: 10px;
+	width: 180px;
+	margin-top: 30px;
+	margin-left: 90px;
+	position: absolute;
+}
+
+#mainDiv
+{
+	width: 600px;
+	height: 400px;
+	margin-left: 700px;
+	margin-top: -450px;
+	position: absolute;
+}
+
+#imgDiv
+{
+
+	width: 700px;
+	height: 400px;
+	margin-left: 40px;
+	margin-top: 50px;
+	background-image: url("../New folder/network.jpg");
+	background-repeat:no-repeat;
+}
+
+#signUp
+{
+	color: #243262;
+	font-family: microsoft sans serif;
+	font-size: 22px;
+	font-weight: bolder;
+	padding: 10px;
+	margin-left: 200px;
+}
+
+#ormDiv
+{
+	margin-left: 80px;
+	margin-top: -10px;
+	height: 300px;
+	padding: 10px;
+}
+
+.textbox
+{
+	font-family: arial;
+	font-size: 14px;
+	border-radius: 2px;
+	border: 1px solid #c5c5c5;
+	height: 20px;
+	width: 200px;
+	padding: 2px 5px;
+	margin-top:10px;
+	margin-left: 5px;
+}
+
+.textbox hover
+{
+	border-color:#FF1919;
+}
+
+#signUpBut
+{
+	font-family: microsoft sans serif;
+	font-size: 16px;
+	background-color: #338533;
+	color: #ffffff;
+	border-radius: 2px;
+	border: none;
+	margin-top: 40px;
+	margin-left: 25px;
+	position: absolute;
+	width: 130px;
+	height: 30px;		
+}
+
+#signUpBut hover
+{
+	cursor:pointer;
+	box-shadow: 0 0 3px #1F501F; 
+}
+
+#loginBut
+{
+	font-family: microsoft sans serif;
+	font-size: 16px;
+	//background-color: #1D284E;
+	background-color: #338533;
+	color: #ffffff;
+	border-radius: 2px;
+	border: none;
+	margin-top: 40px;
+	margin-left: 190px;
+	position: absolute;
+	width: 130px;
+	height: 30px;	
+}
+
+#loginBut hover
+{
+	cursor:pointer;
+	box-shadow: 0 0 3px #334C80; 
+}
+
+#nametxt,#lnametxt
+{
+	width:150px;
+}
+
+#usertxt, #pwdtxt, #gendertxt
+{
+	width:320px;
+}

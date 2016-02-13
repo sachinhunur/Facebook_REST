@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+  <script type='text/javascript' src= "friend.js"></script>
+  
+   
+
+    <title></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  </head>
+<body ng-app="myApp2" ng-controller="orderCtrl2" >
+<div class="blue">
+</div>
+ <form  method="post"	action="back">
+   <input  id="gr" type ="submit" value="Back"/>
+ 	</form>
+<form  method="post"	action="logout">
+ 	  <input id="logout" type ="submit" value="logout"/>
+ 	</form>
+<h3><%=msg%></h3>
+<div class="container">
+
+  <div class"row">
+ <div class="col-sm-6">  
+ <table class="table table-striped">
+ <h3>Friend List</h3>
+  <thead><tr>
+  <th>Email</th>
+  <th>Name</th>
+  </tr></thead>
+  <tbody ng-repeat="inter in friends" >
+  <td>{{ inter.username}}</td>
+    <td></td>
+  </tr></tbody>
+</table>
+</div>
+ <div class="col-sm-6">  
+ <table class="table table-striped">
+ <h3>Friend Requests</h3>
+  <thead><tr>
+  <th>Email</th>
+  <th>Name</th>
+  <th>      Accept</th>
+  <th>Reject</th>
+  </tr></thead>
+<tbody ng-repeat="inter in wfriends" >
+<tr>
+  <td>{{$index + 1}}</td>
+  <td>{{inter.fromusername}}</td>
+ <td><input type="radio" method="post" name={{$index}} ng-click="cal(inter.fromusername,'yes')"><br></td>
+   <td><input type="radio" method="post" name={{$index}} ng-click="cal(inter.fromusername,'no')"><br></td>
+  </tr></tbody>
+</table>
+</div>
+
+<form method="post"	action="addfriend">
+    <input type ="text" value="email" name="email"/>
+ 	<input type ="submit" value="Add Friend"/>
+ 	
+ 	</form>
+ 	</body>

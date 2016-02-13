@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <div class="blue">
+</div>
+<form  method="post"	action="back">
+   <input  id="gr" type ="submit" value="Back"/>
+ 	</form>
+<form  method="post"	action="logout">
+ 	  <input id="logout" type ="submit" value="logout"/>
+ 	</form>
+    
+    <form method="post"	action="addinterest">
+   Enter new interest <input type="text" name="interest"><br>
+ 	<input type ="submit" value="add interest"/>
+ 	</form>
+ 	<form method="post"	action="removeinterest">
+   Enter interest to be removed <input type="text" name="interest"><br>
+ 	<input type ="submit" value="Remove interest"/>
+ 	</form>
+  </body>
+</html>
